@@ -1,0 +1,11 @@
+<!-- /home/eugen/PycharmProjects/pythonProject_blog_3/account/templates/account/profile.html -->
+
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+  <h1>Profile</h1>
+  <p>Welcome, {{ request.user.username }}!</p>
+  <!-- Добавьте любую другую информацию, которую хотите отображать на странице профиля -->
+{% endblock %}
